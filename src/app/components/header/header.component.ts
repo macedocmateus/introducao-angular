@@ -15,4 +15,8 @@ export class HeaderComponent {
   constructor() {}
 
   ngOnInit(): void {}
+
+  addIntro() {
+    console.log('Fui chamado de header.component');
+  }
 }
